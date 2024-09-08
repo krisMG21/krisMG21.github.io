@@ -1,0 +1,53 @@
+@font-face {
+	font-family: recursive;
+	font-style: oblique 0 15deg;
+	font-weight: 300 1000;
+	font-display: swap;
+	src: url(https://krisMG21.github.io/fonts/recursive.ttf)format("ttf")
+}
+
+html {
+	background-color: #1e1e26;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #1e1e26;
+	color: #efefef;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	background-color: #2e2e40;
+	color: #efefef;
+	height: 500px;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+}
+
+
+footer {
+	background-color: #1e1e26;
+	color: #efefef;
+	height: 40px;
+	display: flex;
+}
+
+.main-content {
+	width: 80%;
+	margin: auto;
+}
+
+.title {
+	font-size: 50px;
+	text-align: center;
+
+}
