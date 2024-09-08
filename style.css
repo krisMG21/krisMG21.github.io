@@ -1,18 +1,15 @@
-@font-face {
-	font-family: recursive;
-	font-style: oblique 0 15deg;
-	font-weight: 300 1000;
-	font-display: swap;
-	src: url(https://krisMG21.github.io/fonts/recursive.ttf)format("ttf")
-}
-
-html {
-	background-color: #1e1e26;
-}
-
-body {
+* {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Recursive', sans-serif;
+	font-weight: 350;
+}
+
+
+html {
+	scroll-behavior: smooth;
+	background-color: #1e1e26;
 }
 
 header {
@@ -33,7 +30,6 @@ main {
 	justify-content: center;
 }
 
-
 footer {
 	background-color: #1e1e26;
 	color: #efefef;
@@ -41,13 +37,16 @@ footer {
 	display: flex;
 }
 
+
 .main-content {
 	width: 80%;
 	margin: auto;
 }
 
+
 .title {
 	font-size: 50px;
 	text-align: center;
+}
 
 }
